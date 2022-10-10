@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uts.kursus.FXMLdisplayPengajarController">
+   <children>
+      <TableView fx:id="viewPengajar" layoutX="65.0" layoutY="65.0" prefHeight="270.0" prefWidth="470.0" />
+      <Label alignment="CENTER" layoutX="165.0" layoutY="14.0" text="DAFTAR PENGAJAR KURSUS">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="pengajarFirst" layoutX="270.0" layoutY="351.0" mnemonicParsing="false" onAction="#pengajarFirstClick" prefHeight="25.0" prefWidth="60.0" text="FIRST" />
+      <Button fx:id="pengajarNext" layoutX="404.0" layoutY="351.0" mnemonicParsing="false" onAction="#pengajarNextClick" prefHeight="25.0" prefWidth="60.0" text="NEXT" />
+      <Button fx:id="pengajarPrevious" layoutX="337.0" layoutY="351.0" mnemonicParsing="false" onAction="#pengajarPreviousClick" prefHeight="25.0" prefWidth="60.0" text="PREV." />
+      <Button fx:id="pengajarLast" layoutX="472.0" layoutY="351.0" mnemonicParsing="false" onAction="#pengajarLastClick" prefHeight="25.0" prefWidth="60.0" text="LAST" />
+      <Button fx:id="pengajarDelete" layoutX="203.0" layoutY="351.0" mnemonicParsing="false" onAction="#pengajarDeleteClick" prefHeight="25.0" prefWidth="60.0" text="DELETE" />
+      <Button fx:id="pengajarUpdate" layoutX="136.0" layoutY="351.0" mnemonicParsing="false" onAction="#pengajarUpdateClick" text="UPDATE" />
+      <Button fx:id="pengajarInsert" layoutX="68.0" layoutY="351.0" mnemonicParsing="false" onAction="#pengajarInsertClick" prefHeight="25.0" prefWidth="60.0" text="INSERT" />
+   </children>
+</AnchorPane>

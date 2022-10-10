@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="336.0" prefWidth="315.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uts.kursus.FXMLinputPengajarController">
+   <children>
+      <Button fx:id="inputPengajarClear" layoutX="29.0" layoutY="283.0" mnemonicParsing="false" onAction="#inputPengajarClearClick" prefHeight="25.0" prefWidth="116.0" text="CLEAR" />
+      <Button fx:id="inputPengajarSave" layoutX="170.0" layoutY="283.0" mnemonicParsing="false" onAction="#inputPengajarSaveClick" prefHeight="25.0" prefWidth="116.0" text="SAVE" />
+      <ComboBox fx:id="inputJkPengajar" layoutX="136.0" layoutY="136.0" onAction="#inputJkPengajarClick" prefWidth="150.0" promptText="----- PILIH -----" />
+      <TextField fx:id="inputTeleponPengajar" layoutX="136.0" layoutY="220.0" />
+      <TextField fx:id="inputAlamatPengajar" layoutX="136.0" layoutY="178.0" />
+      <TextField fx:id="inputNamaPengajar" layoutX="136.0" layoutY="94.0" />
+      <TextField fx:id="inputKodePengajar" layoutX="136.0" layoutY="52.0" />
+      <Label layoutX="31.0" layoutY="224.0" text="TELEPON" />
+      <Label layoutX="31.0" layoutY="182.0" text="ALAMAT" />
+      <Label layoutX="31.0" layoutY="140.0" text="JENIS KELAMIN" />
+      <Label layoutX="31.0" layoutY="98.0" text="NAMA" />
+      <Label layoutX="31.0" layoutY="56.0" text="KODE" />
+      <Label layoutX="41.0" layoutY="14.0" text="FORM INPUT PENGAJAR">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

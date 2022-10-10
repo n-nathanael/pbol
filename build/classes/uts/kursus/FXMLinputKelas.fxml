@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="249.0" prefWidth="315.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uts.kursus.FXMLinputKelasController">
+   <children>
+      <Button fx:id="inputKelasSave" layoutX="170.0" layoutY="199.0" mnemonicParsing="false" onAction="#inputKelasSaveClick" prefHeight="25.0" prefWidth="116.0" text="SAVE" />
+      <Button fx:id="inputKelasClear" layoutX="29.0" layoutY="199.0" mnemonicParsing="false" onAction="#inputKelasClearClick" prefHeight="25.0" prefWidth="116.0" text="CLEAR" />
+      <ComboBox fx:id="inputKategoriKelas" layoutX="136.0" layoutY="146.0" onAction="#inputKategoriKelasClick" prefWidth="150.0" promptText="----- PILIH -----" />
+      <TextField fx:id="inputNamaKelas" layoutX="136.0" layoutY="104.0" />
+      <TextField fx:id="inputKodeKelas" layoutX="136.0" layoutY="62.0" />
+      <Label layoutX="31.0" layoutY="150.0" text="KATEGORI" />
+      <Label layoutX="31.0" layoutY="108.0" text="NAMA" />
+      <Label layoutX="31.0" layoutY="66.0" text="KODE" />
+      <Label layoutX="62.0" layoutY="14.0" text="FORM INPUT KELAS">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

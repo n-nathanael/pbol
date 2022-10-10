@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uts.kursus.FXMLdisplayKelasController">
+   <children>
+      <TableView fx:id="viewKelas" layoutX="65.0" layoutY="65.0" prefHeight="270.0" prefWidth="470.0" />
+      <Label layoutX="187.0" layoutY="14.0" text="DAFTAR KELAS KURSUS">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="kelasInsert" layoutX="68.0" layoutY="352.0" mnemonicParsing="false" onAction="#kelasInsertClick" prefHeight="25.0" prefWidth="60.0" text="INSERT" />
+      <Button fx:id="kelasUpdate" layoutX="136.0" layoutY="352.0" mnemonicParsing="false" onAction="#kelasUpdateClick" text="UPDATE" />
+      <Button fx:id="kelasDelete" layoutX="203.0" layoutY="352.0" mnemonicParsing="false" onAction="#kelasDeleteClick" prefHeight="25.0" prefWidth="60.0" text="DELETE" />
+      <Button fx:id="kelasLast" layoutX="472.0" layoutY="352.0" mnemonicParsing="false" onAction="#kelasLastClick" prefHeight="25.0" prefWidth="60.0" text="LAST" />
+      <Button fx:id="kelasPrevious" layoutX="337.0" layoutY="352.0" mnemonicParsing="false" onAction="#kelasPreviousClick" prefHeight="25.0" prefWidth="60.0" text="PREV." />
+      <Button fx:id="kelasNext" layoutX="404.0" layoutY="352.0" mnemonicParsing="false" onAction="#kelasNextClick" prefHeight="25.0" prefWidth="60.0" text="NEXT" />
+      <Button fx:id="kelasFirst" layoutX="270.0" layoutY="352.0" mnemonicParsing="false" onAction="#kelasFirstClick" prefHeight="25.0" prefWidth="60.0" text="FIRST" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="334.0" prefWidth="315.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uts.kursus.FXMLinputPesertaController">
+   <children>
+      <Label layoutX="51.0" layoutY="14.0" text="FORM INPUT PESERTA">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="32.0" layoutY="63.0" text="KODE" />
+      <Label layoutX="32.0" layoutY="105.0" text="NAMA" />
+      <Label layoutX="32.0" layoutY="147.0" text="JENIS KELAMIN" />
+      <Label layoutX="32.0" layoutY="189.0" text="ALAMAT" />
+      <Label layoutX="32.0" layoutY="231.0" text="TELEPON" />
+      <TextField fx:id="inputKodePeserta" layoutX="137.0" layoutY="59.0" />
+      <TextField fx:id="inputNamaPeserta" layoutX="137.0" layoutY="101.0" />
+      <TextField fx:id="inputAlamatPeserta" layoutX="137.0" layoutY="185.0" />
+      <TextField fx:id="inputTeleponPeserta" layoutX="137.0" layoutY="227.0" />
+      <ComboBox fx:id="inputJkPeserta" layoutX="137.0" layoutY="143.0" onAction="#inputJkPesertaClick" prefWidth="150.0" promptText="----- PILIH -----" />
+      <Button fx:id="inputPesertaClear" layoutX="30.0" layoutY="282.0" mnemonicParsing="false" onAction="#inputPesertaClearClick" prefHeight="25.0" prefWidth="116.0" text="CLEAR" />
+      <Button fx:id="inputPesertaSave" layoutX="171.0" layoutY="282.0" mnemonicParsing="false" onAction="#inputPesertaSaveClick" prefHeight="25.0" prefWidth="116.0" text="SAVE" />
+   </children>
+</AnchorPane>
